@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/d149ea4688.js"></script>
+  <style>
+    body {
+      background-color: #144bc49d
+    }
+
+    aside {
+      margin-left: 1000px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweet Me</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+  <div class="right">
+    <a href="https://developers.facebook.com/docs/plugins/share-button"><i class="fa fa-facebook-official"
+        aria-hidden="true"></i></a>
+    <a href="https://about.twitter.com/resources/buttons#tweet"><i class="fa fa-twitter-square"
+        aria-hidden="true"></i></a>
+  </div>
+  <aside>
+    <p>
+    <div id="disqus_thread">
+      <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://personawebsite.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
+      </p>
+    </div>
+  </aside>
+  <div class="me">
+    <h1>Clickable image</h1>
+    <a href="https://stock.adobe.com/search?k=computer+programming+african+american&asset_id=336689972"> <img
+        class="like"
+        src="https://as2.ftcdn.net/v2/jpg/03/36/68/99/1000_F_336689972_BJ9wMI7rTpkR2vzQM4hIHvjKq3dTFFaG.jpg" /></a>
+    <h2>About me</h2>
+    <article class="about">
+      <h3>Current Status</h3>
+      <p>In 2019 I get the opportunity to join adama science and technology univeristiy now am 3rd year Computer
+        Science and Engineering Student in there.know Proficient in HTML/CSS,Python,C++,PHP,SQL.</p>
+    </article>
+    <h6>Tweets</h6>
+    <a class="twitter-timeline" data-width="220" data-height="200"
+      href="https://twitter.com/TheAnkurTyagi?ref_src=twsrc%5Etfw">Tweets by TheAnkurTyagi</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+    <p>Made by Naima Tilahun for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.</p>
+  </div>
+</body>
+
+</html>
